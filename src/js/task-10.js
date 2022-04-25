@@ -46,7 +46,6 @@ btnCreate.addEventListener('click', getInputValue);
 
 const destroyBoxes = () => {
   divBoxes.remove();
-  window.location.reload();
 };
 
 btnDestroy.addEventListener('click', destroyBoxes);
